@@ -10,6 +10,9 @@ public enum ApiErrorMessage {
     INVALID_EMAIL("Invalid email"),
     USER_ACCESS_DENIED("User %s with tenantId %s doesn't have access to requested tenantId %s resource"),
     NOT_FOUND_LOG_USER("LogId: '%s' for userId: '%s' is not found in DB"),
+    NOT_FOUND_ACTION_LOG("LogId: '%s' was not found"),
+    NOT_FOUND_ACTION_LOG_FOR_USER("LogId: '%s' for user: '%s' was not found"),
+
     EMPTY_USER_ID("User ID must not be null"),
     ACCESS_DENIED("Access denied: You can only view your own logs."),
     ACCESS_THROUGH_NOT_API_SERVICE("Unauthorized Access, you should pass through the API service");
