@@ -15,6 +15,7 @@ public enum ApiErrorMessage {
 
     EMPTY_USER_ID("User ID must not be null"),
     ACCESS_DENIED("Access denied: You can only view your own logs."),
+    UNEXPECTED_ERROR("An unexpected error occurred. Please try again later."),
     ACCESS_THROUGH_NOT_API_SERVICE("Unauthorized Access, you should pass through the API service");
 
     private final String value;
