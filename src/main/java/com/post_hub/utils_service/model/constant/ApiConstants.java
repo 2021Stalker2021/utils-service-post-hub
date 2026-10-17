@@ -9,6 +9,7 @@ public final class ApiConstants {
     public static final String BREAK_LINE = "\n";
     public static final String ANSI_RED = "\u001B[31m";
     public static final String ANSI_WHITE = "\u001B[37m";
+    public static final String TIME_ZONE_PACKAGE_NAME = "java.time.zone";
     public static final String CONTENT_TYPE = "Content-Type";
     public static final String CONTENT_TYPE_JSON = "application/json";
     public static final String DEFAULT_WHITESPACES_BEFORE_STACK_TRACE = "        ";
